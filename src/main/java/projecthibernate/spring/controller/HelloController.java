@@ -38,7 +38,7 @@ public class HelloController {
 			author.getMusic().setType(new Type());
 			author.getMusic().getType().setDescription("Bossa Nova");
 			
-			authorService.consultarPorEntidadeList(author);
+			authorService.findByEntityList(author);
 		
 			
 		} catch (Exception e) {
